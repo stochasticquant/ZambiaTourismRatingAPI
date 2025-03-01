@@ -11,7 +11,7 @@ namespace ZambiaTourismAPI.Data
         }
 
         // Represents the TouristSites tables in the database
-        public DbSet<Rating> MyProperty { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
         public DbSet<Region> Regions { get; set; }
         public DbSet<TouristSite> TouristSites { get; set; }
     }

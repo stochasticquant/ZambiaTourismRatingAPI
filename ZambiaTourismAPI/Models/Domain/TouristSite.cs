@@ -16,6 +16,6 @@ namespace ZambiaTourismAPI.Models.Domain
 
         // Navigation Properties : defines the relationship between the entities
         public Region Region { get; set; }
-        public Rating Rating { get; set; }
+        public Rating SiteRating { get; set; }
     }
 }
